@@ -11,7 +11,7 @@ namespace pryRomoPruebaCopilotAI
 
         public AccesoDatos()
         {
-            string dbPath = Application.StartupPath + "..\\..\\..\\Base de Datos\\Consultorio.accdb";
+            string dbPath = Application.StartupPath + "..\\..\\..\\Base de Datos\\Clinica.accdb";
             //private static string rutaBD = "..\\..\\BaseDatos\\academia.accdb"; // Cambie la ruta si es necesario
             //return $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={fullPath};Persist Security Info=False;";
             _connectionString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={dbPath}";
